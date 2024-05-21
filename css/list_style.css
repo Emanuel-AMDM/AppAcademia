@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./body_style.css');
+
+body{
+    padding: 10%;
+}
+
+.content-input{
+    margin-top: 20px;
+
+    input{
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+.subtitle{
+    font-size: 25px;
+    padding: 25px 0px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 100px;
+    }
+
+    h3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 90px;
+    }
+
+    i{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.repeat-body{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+
+    .repeat{
+        display: flex;
+        flex-direction: column;
+
+        .count{
+            display: flex;
+            margin-top: 10px;
+
+            span{
+                padding: 10px;
+            }
+
+            .border{
+                border: 1px solid black;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.delete{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: red;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+
+    button{
+        width: 90%;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: #262626;
+        border:none;
+        color: white;
+    }
+}

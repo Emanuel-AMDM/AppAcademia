@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./body_style.css');
+@import url('./execution_style.css');
+
+.trainings{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    img{
+        width: 30%;
+    }
+        
+    .training-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 20%;
+
+        span{
+            font-size: 15px;
+        }
+    }
+
+    i{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+
+    button{
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: white;
+        border:none;
+        color: #262626;
+        border: 1px solid #262626;
+    }
+
+    span{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        color: red;
+    }
+}
