@@ -2,10 +2,13 @@
 
 session_start();
 
+$id       = 1;
 $email    = $_POST['email'];
 $password = $_POST['password'];
 
 if($email == 'emanuel@gmail.com' && $password == '123'){
+    $_SESSION['user'] = $id;
+
     header('Location: ../../pages/home/executions/index.html');
     exit;
 }else{
