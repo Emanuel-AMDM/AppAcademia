@@ -9,12 +9,12 @@ $password = $_POST['password'];
 if($email == 'emanuel@gmail.com' && $password == '123'){
     $_SESSION['user'] = $id;
 
-    header('Location: ../../pages/home/executions/index.html');
+    header('Location: ../../../pages/home/executions/index.html');
     exit;
 }else{
     echo'<style>
             body{
-                background-image: url("../../uploads/img_default.jpg");
+                background-image: url("../../../uploads/img_default.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -29,7 +29,7 @@ if($email == 'emanuel@gmail.com' && $password == '123'){
                 <strong> E-mail ou Senha incorreto </strong>
             </h1>
             
-            <a href="../../pages/auth/login/index.php"
+            <a href="../../../pages/auth/login/index.php"
                 style="
                 text-decoration: none;
                 text-align: center;
@@ -46,7 +46,7 @@ if($email == 'emanuel@gmail.com' && $password == '123'){
                 Login
             </a>
 
-            <a href="../../pages/auth/sign-up/index.html"
+            <a href="../../../pages/auth/sign-up/index.html"
                 style="
                 text-decoration: none;
                 text-align: center;

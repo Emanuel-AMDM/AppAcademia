@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    <form action="../../../routes/auth/login.php" method="post">
+    <form action="../../../routes/auth/session/login.php" method="post">
 
         <div class="img">
             <div class="opacity"></div>
@@ -42,8 +42,9 @@
             <div class="button-black-100">
                 <button type="submit">Entrar</button>
             </div>
-            <div class="button-white-100">
-                <button>Criar uma conta</button>
+
+            <div class="a-white-100">
+                <a href="../sign-up/index.php"><strong>Criar uma Conta</strong></a>
             </div>
         
             <div class="forgot-password">
