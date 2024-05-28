@@ -38,10 +38,12 @@ body{
         padding-right: 90px;
     }
 
-    i{
+    a{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-decoration: none;
+        color: black;
     }
 }
 
@@ -58,13 +60,23 @@ body{
             display: flex;
             margin-top: 10px;
 
-            span{
+            #res{
+                padding: 10px;
+            }
+            #res2{
                 padding: 10px;
             }
 
             .border{
                 border: 1px solid black;
-                padding: 10px;
+
+                button{
+                    width: 40px;
+                    height: 40px;
+                    border: none;
+                    background: none;
+                    font-size: 30px;
+                }
             }
         }
     }
