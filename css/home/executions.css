@@ -45,9 +45,11 @@ body{
 
 .button{
     
-    span{
+    a{
         display: flex;
         justify-content: center;
         margin-top: 40px;
+        text-decoration: none;
+        color: black;
     }
 }
