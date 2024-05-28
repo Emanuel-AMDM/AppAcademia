@@ -21,16 +21,16 @@
       <h1>Criar uma conta</h1>
 
       <div class="input-text">
-        <input type="text" placeholder="Nome*" name="name" required>
+        <input type="text" placeholder="Nome*" name="name" id="name" required>
       </div>
       <div class="input-text">
-        <input type="text" placeholder="E-mail*" name="email" required>
+        <input type="text" placeholder="E-mail*" name="email" id="email" required>
       </div>
       <div class="input-text">
-        <input type="password" placeholder="Senha*" name="password" required>
+        <input type="password" placeholder="Senha*" name="password" id="password" minlength="6" maxlength="16" required>
       </div>
       <div class="input-text">
-        <input type="password" placeholder="Confirme a senha*" name="confirm_password" required>
+        <input type="password" placeholder="Confirme a senha*" name="confirm_password" id="confirm_password" minlength="6" maxlength="16" required>
       </div>
         
       <div class="button-black-100">
