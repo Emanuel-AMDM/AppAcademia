@@ -9,7 +9,7 @@ $password = $_POST['password'];
 if($email == 'emanuel@gmail.com' && $password == '123'){
     $_SESSION['user'] = $id;
 
-    header('Location: ../../../pages/home/executions/index.html');
+    header('Location: ../../../pages/trainings/create/index.html');
     exit;
 }else{
     echo'<style>
@@ -25,8 +25,9 @@ if($email == 'emanuel@gmail.com' && $password == '123'){
                 style="
                 color: rgb(252, 252, 252);
                 box-shadow: 2px 5px 20px 5px black;
-                font-size: 60px;">
-                <strong> E-mail ou Senha incorreto </strong>
+                font-size: 60px;
+                text-align:center;">
+                <strong> Não foi possível realizar o login. Verifique os dados informados e tente novamente. </strong>
             </h1>
             
             <a href="../../../pages/auth/login/index.php"
