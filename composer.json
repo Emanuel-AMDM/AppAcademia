@@ -1,0 +1,16 @@
+{
+    "name": "manu/app-academia",
+    "autoload": {
+        "psr-4": {
+            "Manu\\AppAcademia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emanuel Menezes"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6"
+    }
+}
